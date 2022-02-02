@@ -7,8 +7,8 @@
 html {
     font-family: 'Open Sans', sans-serif;
     font-family: 'Roboto', sans-serif;
-    font-family: 'Rubik Mono One', sans-serif;
     color: white;
+    font-size: .8rem;
 }
 
 
@@ -38,7 +38,7 @@ html {
 
 
 .btn-header {
-    margin: auto .3em;  
+    margin: auto .3em;
 }
 
 .btn-header .fa-th {
@@ -46,3 +46,30 @@ html {
     padding-right: .4em;
 }
 
+
+/* main */
+
+.content-main {
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-top: 3rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    padding-bottom: 3rem;
+}
+
+.container-img{
+    width: 300px;
+    height: 250px;
+    background-image: url(https://picsum.photos/300/250);
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-bottom: 1rem;
+}
+
+.user-mic {
+    background-color: rgba(128, 128, 128, .6);
+    padding: .4em;
+    width: max-content;
+    
+}
