@@ -4,6 +4,13 @@
     box-sizing: border-box;
 }
 
+:root {
+    --lightgrey: rgb(175, 174, 174);
+    --darkgrey: rgb(66, 66, 66);
+    --grey: grey;
+}
+
+
 html {
     font-family: 'Open Sans', sans-serif;
     font-family: 'Roboto', sans-serif;
@@ -11,6 +18,14 @@ html {
     font-size: .8rem;
 }
 
+ul {
+    list-style: none;
+    
+}
+
+ul li {
+    display: inline-block;
+}
 
 /* UTILITY */
 
@@ -20,7 +35,7 @@ html {
 
 .btn {
     padding: .2em .4em;
-    background-color: grey;
+    background-color: var(--lightgrey);
 }
 
 
@@ -56,6 +71,7 @@ html {
     padding-left: 4rem;
     padding-right: 4rem;
     padding-bottom: 3rem;
+    background-color: black;
 }
 
 .container-img{
@@ -73,3 +89,32 @@ html {
     width: max-content;
     
 }
+
+
+/* footer */
+
+
+.footer-bottom-page{
+    background-color: var(--darkgrey);
+    height: 6rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-bottom-page i{
+    font-size: 2rem;
+}
+
+
+.footer-bottom-page li {
+    text-align: center;
+    padding: .5em;
+}
+
+.btn-footer-bottom-page {
+    height: 100%;
+    align-items: center;
+    color: red;
+    background-color: var(--grey);
+}
+
