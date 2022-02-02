@@ -64,6 +64,10 @@ ul li {
 
 /* main */
 
+main {
+    background-color: black;
+}
+
 .content-main {
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -71,7 +75,8 @@ ul li {
     padding-left: 4rem;
     padding-right: 4rem;
     padding-bottom: 3rem;
-    background-color: black;
+    max-width: 1500px;
+    margin: auto;
 }
 
 .container-img{
@@ -82,6 +87,7 @@ ul li {
     justify-content: flex-end;
     margin-bottom: 1rem;
 }
+
 
 .user-mic {
     background-color: rgba(128, 128, 128, .6);
@@ -116,5 +122,9 @@ ul li {
     align-items: center;
     color: red;
     background-color: var(--grey);
+}
+
+.footer-bottom-page .fa-chevron-up {
+    font-size: .8rem;
 }
 
